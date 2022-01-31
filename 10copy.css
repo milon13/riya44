@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* The part of global Class */
+/* .global-h{
+
+}
+.global-p{
+    
+} */
+.container{
+    width: 100%;
+    float: left;
+}
+.btns{
+    width: 200px;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.btnsal{
+    width: 180px;
+    position: relative;
+    padding: 17px;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    left: 491px;
+    bottom: 56px;
+}
+/* The part of header part */
+header{
+    background: url(./img10/bg.png);
+    width: 100%;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    margin-bottom: -300px;
+}
+/* The part of main header */
+.logo-part{
+    width: 43%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.menu-part{
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+}
+.menu-part ul{
+    margin-top: 20px;
+}
+.menu-part ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+    text-align: end;
+}
+.menu-part ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+    border-radius: 4px;
+}
+.menu-part ul li a:hover{
+    cursor: pointer;
+    background-color: rgba(183, 35, 228, 0.699);
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 75px;
+}
+.hero-part h1{
+    font-size: 52px;
+    display: inline-block;
+    line-height: 4.5rem;
+    text-shadow: 2px 2px 4px blue;
+}
+.hero-part p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+/* .hero-part img{
+    
+} */
+.btn{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header-btn{
+    margin: 50px 0px;
+}
+/* .header-btn .btn{
+
+} */
+.btn-dark{
+    margin-right: 25px;
+}
+.btn-dark:hover{
+    cursor: pointer;
+    color: red;
+    box-shadow: 1px 2px 4px yellow;
+}
+.btn-light{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.btn-light:hover{
+    cursor: pointer;
+    color: pink;
+    box-shadow: 1px 2px 4px blue;
+}
+
+/* The part of about section */
+#about{
+    background: url(./img10/marketing-bg1.png);
+    background-size: cover;
+    width: 100%;
+    float: left;
+    backface-visibility: hidden;
+    z-index: 1;
+    padding-top: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    padding-bottom: 100px;
+}
+.about-box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 32px;
+}
+.about-box img{
+    margin-left: 100px;
+}
+.about-box-details{
+    width: 98%;
+    float: left;
+    text-align: center;
+    padding: 32px;
+    box-shadow: 1px 3px 5px gray;
+    margin: 10px 1%;
+    height: 290px;
+    width: 275px;
+}
+.about-box-details img{
+    margin: 10px 0px;
+}
+.about-box-details h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.about-box-details p{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 25px 0px 0px 0px;}
+.A{
+    position: relative;
+    left: 104px;
+    top: -110px;
+}
+.B{
+    position: relative;
+    top: -60px;
+    left: 40px;
+}
+.C{
+    position: relative;
+    top: -25px;
+    left: 15px;
+}
+.D{
+    position: relative;
+    right: 50px;
+    top: 40px;
+}
+/* The part of download */
+#download{
+    background: #fff;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    margin: 100px 0px 150px 0px;
+}
+.download-box{
+    width: 50%;
+    float: left;
+}
+.download-box-details{
+    text-align: right;
+}
+.download-box-details h1{
+    position: relative;
+    top: 60px;
+    right: 30px;
+    background-color: red;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px magenta;
+}
+.download-box-details p{
+    position: relative;
+    top: 100px;
+    right: 16px;
+    display: inline-block;
+    font-size: 16px;
+}
+.btnsa{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    right: 40px;
+}
+.btnsa button{
+    background: aqua;
+    border-radius: 34px;
+}
+.btnsa button:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 5px yellow;
+}
+.download-box-details-list{
+    width: 100%;
+    float: left;
+    padding: 23px;
+    box-shadow: 1px 3px 5px gray;
+}
+.download-box-details-list h3{
+    text-align: left;
+    font-size: 20px;
+    display: inherit;
+    font-weight: 600;
+}
+.h-one{
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
+.h-two{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.h-three{
+    position: relative;
+    top: 5px;
+    left: 70px;
+}
+.h-four{
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+.download-box-details-list img{
+    width: 25px;
+    position: relative;
+    float: left;
+    left: 30px;
+    top: -16px;
+}
+.img2{
+    width: 100%;
+    float: left;
+}
+.img2 img{
+    position: relative;
+    top: -60px;
+    left: 33px;
+    width: 20px;
+}
+.download-box-details-list p{
+    text-align: left;
+    position: relative;
+    left: 69px;
+    top: 20px;
+    color: #fff;
+}
+.one{
+    height: 80px;
+    width: 500px;
+    position: relative;
+    left: 70px;
+}
+.two{
+    height: 130px;
+    width: 500px;
+    background: aqua;
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+.three{
+    height: 80px;
+    width: 500px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+.four{
+    height: 80px;
+    width: 500px;
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+/* The part of item */
+#item{
+    width: 100%;
+    float: left;
+    background: #FAFAFC;
+    padding: 100px 0px;
+}
+.item-box{
+    width: 50%;
+    float: left;
+}
+.item-box img{
+    margin-left: 50px;
+}
+.item-box h2{
+    position: relative;
+    left: 50px;
+    top: 35px;
+    display: inline-block;
+    font-size: 25px;
+    text-shadow: 1px 2px 5px paleturquoise;
+    font-weight: 600;
+}
+.item-box p{
+    position: relative;
+    left: 50px;
+    top: 201px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.android{
+    position: relative;
+    left: -178px;
+    display: inline-block;
+    top: 100px;
+}
+.android P{
+    position: relative;
+    left: 10px;
+    top: -10px;
+    font-weight: 700;
+}
+.android img{
+    position: relative;
+    left: -140px;
+    top: -6px;
+}
+.iPhone{
+    position: relative;
+    left: -335px;
+    display: inline-block;
+    top: 125px;
+}
+.iPhone p{
+    position: relative;
+    left: 27px;
+    top: 5px;
+    font-weight: 700;
+}
+.iPhone img{
+    position: relative;
+    left: -115px;
+    top: 10px;
+}
+/* The part of stoke */
+#stoke{
+    width: 100%;
+    float: left;
+    background: url(./img10/bg.png);
+    padding: 100px 0px;
+}
+.stoke-box{
+    width: 50%;
+    float: left;
+}
+.stoke-box img{
+    display: inline-block;
+}
+.phnimg{
+    display: inline-block;
+}
+.phnimg img{
+    padding-left: 250px;
+}
+.stoke-box h1{
+    display: inline-block;
+    font-size: 35px;
+    position: relative;
+    text-shadow: 3px 2px 5px blue;
+    top: 150px;
+    font-weight: 500;
+}
+.stoke-box p{
+    display: inline-block;
+    position: relative;
+    top: 190px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+}
+.stoke-box{
+    display: inline-block;
+}
+.playstore{
+    display: inline-block;
+    position: relative;
+    top: 303px;
+    left: -280px;
+}
+.playstore img{
+    position: relative;
+}
+.applestore{
+    display: inline-block;  
+    position: relative;
+    top: 250px;
+}
+.applestore img{
+    position: relative;
+}
+/* The part of count */
+#count{
+    width: 100%;
+    float: left;
+    background: #FFFFFF;
+    padding: 100px 0px 188px 0px;
+}
+.count-box{
+    width: 100%;
+    float: left;
+}
+.count-box-list{
+    width: 23%;
+    float: left;
+    text-align: left;
+    display: block;
+}
+.count-box-list ul{
+    list-style: none;
+}
+.count-box-list ul li{
+    padding-left: 100px;
+}
+.form{
+    width: 100%;
+    float: left;
+}
+.form h1{
+    display: inline-block;
+    font-size: 30px;
+    border: #dfdede;
+    position: relative;
+    top: -311px;
+    text-shadow: 3px 3px 6px red;
+    left: 603px;
+    padding: 4px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+ .form h3 {
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: 51px;
+    text-shadow: 3px 3px 6x;
+    left: 281px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.form p{
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+    top: 124px;
+    left: -166px;
+    margin: auto;
+}
+}
+.count-box-form{
+    display: inline-block;
+    position: relative;
+    top: 131px;
+    right: -281px;
+}
+.count-box-form input{
+    background: #F6F7FB;
+    color:#fff;
+    margin: 20px;
+}
+.count-box-form input[type="text"]{
+    height: 49px;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    width: 540px;
+    border: none;
+    border-radius: 5px;
+    top: 141px;
+    left: 208px;
+}
+.cbtns{
+    display: inline-block;
+    position: relative;
+    top: 128px;
+    right: -300px;
+    border-radius: 7px;
+}
+.cbtns Button{
+    background: #33D2FD;
+}
+.cbtns Button:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 5px magenta;
+}
+/* The part of Finish */
+#finish{
+    width: 100%;
+    float: left;
+    background: #233148;
+    padding: 30px 0px;
+    color: #fff;
+}
+.finish-box{
+    display: inline-block;
+}
+.finish-box p{
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 80px;
+}
+.icon{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.icon ul{
+    display: -webkit-inline-box;
+    list-style: none;
+}
+.icon ul li{
+
+margin: 2px 30px;
+}
+.icon ul li a{
+
+text-decoration: none;
+
+color: #ede5e5;
+
+position: relative;
+
+right: 80px;
+
+bottom: 5px;
+
+font-size: larger;
+}
